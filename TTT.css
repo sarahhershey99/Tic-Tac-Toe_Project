@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: teal;
+}
+
+.board{
+    background-color: black;
+    color: black;
+    border: 5px solid black;
+    height:475px ;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  .sqr {
+    background-color: antiquewhite;
+    width: 160px;
+    height: 155px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid black;
+  }
+.PlayerO {
+    color: darkblue;
+    font-size: 16px;
+}
+.PlayerX {
+    color: blueviolet;
+    font-size: 16px;
+}
