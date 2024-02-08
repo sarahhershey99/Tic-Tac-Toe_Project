@@ -6,16 +6,15 @@ body{
     background-color: teal;
 }
 
-.board{
+#board{
     background-color: black;
     color: black;
-    border: 5px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  border: 5px solid black;
     height:475px ;
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 490px;
 }
   .sqr {
     background-color: antiquewhite;
