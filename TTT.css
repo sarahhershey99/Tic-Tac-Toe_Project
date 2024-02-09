@@ -24,11 +24,11 @@ body{
     vertical-align: middle;
     border: 2px solid black;
   }
-.PlayerO {
+.playerO {
     color: darkblue;
-    font-size: 16px;
+    font-size: 50px;
 }
-.PlayerX {
+.playerX {
     color: blueviolet;
-    font-size: 16px;
+    font-size: 50px;
 }
